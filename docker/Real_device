@@ -87,7 +87,7 @@ RUN rm -rf scrcpy/
 #=======
 # noVNC
 #=======
-ENV NOVNC_VERSION="1.2.0" \
+ENV NOVNC_VERSION="1.4.0" \
     WEBSOCKIFY_VERSION="0.11.0" \
     OPT_PATH="/opt"
 RUN  wget -nv -O noVNC.zip "https://github.com/novnc/noVNC/archive/refs/tags/v${NOVNC_VERSION}.zip" \
